@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get support for ShallowTV. Contact us with questions, feedback, or issues.">
+    <title>Support - ShallowTV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/transparentIcon.png" alt="ShallowTV" class="logo-icon-img">
+                <span>ShallowTV</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#platforms">Platforms</a></li>
+                <li><a href="index.html#download">Download</a></li>
+                <li><a href="support.html" class="active">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="support-page">
+        <div class="container">
+            <header class="support-header">
+                <h1>How Can We Help?</h1>
+                <p>We're here to help you get the most out of ShallowTV</p>
+            </header>
+
+            <div class="support-grid">
+                <section class="support-section contact-section">
+                    <h2>Contact Support</h2>
+                    <p>Have a question, found a bug, or want to share feedback? We'd love to hear from you.</p>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">&#x2709;</div>
+                        <h3>Email Us</h3>
+                        <p>Send us an email and we'll get back to you as soon as possible.</p>
+                        <a href="mailto:contact@shallowtv.com" class="btn btn-primary">contact@shallowtv.com</a>
+                    </div>
+
+                    <div class="response-note">
+                        <p>We typically respond within 24-48 hours during business days.</p>
+                    </div>
+                </section>
+
+                <section class="support-section faq-section">
+                    <h2>Frequently Asked Questions</h2>
+
+                    <div class="faq-list">
+                        <details class="faq-item">
+                            <summary>How do I add a playlist?</summary>
+                            <div class="faq-answer">
+                                <p>You can add playlists in two ways:</p>
+                                <ol>
+                                    <li>On first launch, enter your M3U playlist URL in the onboarding screen</li>
+                                    <li>Go to <strong>Library</strong> tab, tap the <strong>+</strong> button, and choose "Add from URL" or "Add from File"</li>
+                                </ol>
+                            </div>
+                        </details>
+
+                        <details class="faq-item">
+                            <summary>What playlist formats are supported?</summary>
+                            <div class="faq-answer">
+                                <p>ShallowTV supports standard M3U and M3U8 playlist formats. The parser handles:</p>
+                                <ul>
+                                    <li>#EXTINF tags with attributes (tvg-id, tvg-name, tvg-logo, group-title)</li>
+                                    <li>HTTP, HTTPS, RTMP, and RTSP stream URLs</li>
+                                    <li>Both live channels and VOD content</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <details class="faq-item">
+                            <summary>Why isn't my channel playing?</summary>
+                            <div class="faq-answer">
+                                <p>There are several reasons a channel might not play:</p>
+                                <ul>
+                                    <li>The stream URL may be offline or expired</li>
+                                    <li>Your network may be blocking the stream</li>
+                                    <li>The stream format may not be supported by your device</li>
+                                </ul>
+                                <p>Try refreshing your playlist or contact your playlist provider for updated links.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item">
+                            <summary>How do I resume watching a video?</summary>
+                            <div class="faq-answer">
+                                <p>ShallowTV automatically remembers your playback position for VOD content. Simply tap on a video you've partially watched, and it will resume from where you left off.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item">
+                            <summary>Can I sync playlists across devices?</summary>
+                            <div class="faq-answer">
+                                <p>Currently, playlists are stored locally on each device. To use the same playlist on multiple devices, add the playlist URL on each device separately. The auto-refresh feature will keep them synchronized.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item">
+                            <summary>How often do playlists refresh?</summary>
+                            <div class="faq-answer">
+                                <p>By default, playlists refresh every 24 hours when auto-refresh is enabled. You can customize the refresh interval in the playlist settings, or manually refresh at any time from the Library tab.</p>
+                            </div>
+                        </details>
+                    </div>
+                </section>
+            </div>
+
+            <section class="support-section tips-section">
+                <h2>Tips & Tricks</h2>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <div class="tip-icon">&#x2B50;</div>
+                        <h3>Quick Favorites</h3>
+                        <p>Long-press on any channel or video to quickly add it to your favorites.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">&#x1F50D;</div>
+                        <h3>Global Search</h3>
+                        <p>Use the Search tab to find content across all your playlists at once.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">&#x1F3AC;</div>
+                        <h3>Mini Player</h3>
+                        <p>The mini player appears when you scroll away from what you're watching. Tap it for full-screen.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">&#x2328;</div>
+                        <h3>Keyboard Shortcuts</h3>
+                        <p>On macOS, use spacebar to play/pause and arrow keys to navigate content.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/transparentIcon.png" alt="ShallowTV" class="footer-logo-img">
+                    <span>ShallowTV</span>
+                </div>
+                <nav class="footer-links">
+                    <a href="support.html">Support</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </nav>
+            </div>
+            <p class="footer-copyright">&copy; 2025 ShallowTV. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
